@@ -1,0 +1,207 @@
+{
+    "parameters": [
+        {
+            "descr": "spherical angle of incident plane wave",
+            "expr": "0",
+            "name": "theta",
+            "value": "0"
+        },
+        {
+            "descr": "spherical angle of incident plane wave",
+            "expr": "0",
+            "name": "phi",
+            "value": "0"
+        },
+        {
+            "expr": "10",
+            "name": "W",
+            "value": "10"
+        },
+        {
+            "expr": "10",
+            "name": "L",
+            "value": "10"
+        },
+        {
+            "expr": "1.4199999999999999",
+            "name": "Wline",
+            "value": "1.4199999999999999"
+        },
+        {
+            "expr": "1",
+            "name": "Wgap",
+            "value": "1"
+        },
+        {
+            "expr": "0.035",
+            "name": "th",
+            "value": "0.035"
+        },
+        {
+            "expr": "0.9",
+            "name": "h",
+            "value": "0.9"
+        },
+        {
+            "expr": "(W/2)-Wgap-Wline/2",
+            "name": "Wcoop",
+            "value": "3.29"
+        },
+        {
+            "expr": "0.475",
+            "name": "Wpad",
+            "value": "0.475"
+        },
+        {
+            "expr": "0.75",
+            "name": "Lpad",
+            "value": "0.75"
+        },
+        {
+            "expr": "0.35",
+            "name": "Wpadgap",
+            "value": "0.35"
+        },
+        {
+            "expr": "Wline/2+Wgap/2",
+            "name": "Xvar_centre",
+            "value": "1.21"
+        },
+        {
+            "expr": "(Xvar_centre+Wpadgap/2+Wpad/2)",
+            "name": "Xpad1",
+            "value": "1.6225"
+        },
+        {
+            "expr": "(Xvar_centre-Wpadgap/2-Wpad/2)",
+            "name": "Xpad2",
+            "value": "0.7975"
+        },
+        {
+            "expr": "Xpad1",
+            "name": "Xpad3",
+            "value": "1.6225"
+        },
+        {
+            "expr": "Xpad2",
+            "name": "Xpad4",
+            "value": "0.7975"
+        },
+        {
+            "expr": "(Wgap+Wline/2)-(Xpad1+Wpad/2)",
+            "name": "W1",
+            "value": "-0.15"
+        },
+        {
+            "expr": "0.3",
+            "name": "L1",
+            "value": "0.3"
+        },
+        {
+            "expr": "W1",
+            "name": "W2",
+            "value": "-0.15"
+        },
+        {
+            "expr": "5.4",
+            "name": "R",
+            "value": "5.4"
+        },
+        {
+            "expr": "0.075",
+            "name": "Cp",
+            "value": "0.075"
+        },
+        {
+            "expr": "2.1",
+            "name": "C0",
+            "value": "2.1"
+        },
+        {
+            "expr": "20",
+            "name": "V",
+            "value": "20"
+        },
+        {
+            "expr": "3",
+            "name": "Vj",
+            "value": "3"
+        },
+        {
+            "expr": "1 + (Cp/Cj)",
+            "name": "A",
+            "value": "1.41150002526736"
+        },
+        {
+            "expr": "C0/(((V /Vj)+1)^M)",
+            "name": "Cj",
+            "value": "0.182260013110014"
+        },
+        {
+            "expr": "1.2",
+            "name": "M",
+            "value": "1.2"
+        },
+        {
+            "expr": "0.45",
+            "name": "Lp",
+            "value": "0.45"
+        },
+        {
+            "expr": "2*pi*f*Cp*R",
+            "name": "B",
+            "value": "2.54469004940773e-02"
+        },
+        {
+            "expr": "10*1e-3",
+            "name": "f",
+            "value": "0.01"
+        },
+        {
+            "expr": "1 / (A^2 + B^2)",
+            "name": "AB_sqInv",
+            "value": "0.501761215465592"
+        },
+        {
+            "expr": "AB_sqInv*(A*R - (B/(2*pi*f*Cj)))",
+            "name": "ReZ",
+            "value": "2.7095105635142"
+        },
+        {
+            "expr": "-1*AB_sqInv*(B*R + (A/(2*pi*f*Cj)))",
+            "name": "ImZ",
+            "value": "-61.9142504802984"
+        },
+        {
+            "expr": "(-1) / (ImZ*2*pi*f)",
+            "name": "Ct",
+            "value": "0.257057045602998"
+        },
+        {
+            "expr": "ReZ",
+            "name": "Rt",
+            "value": "2.7095105635142"
+        },
+        {
+            "expr": "11",
+            "name": "f0",
+            "value": "11"
+        },
+        {
+            "expr": "10.75",
+            "name": "fmin",
+            "value": "10.75"
+        },
+        {
+            "expr": "11.25",
+            "name": "fmax",
+            "value": "11.25"
+        },
+        {
+            "expr": "15",
+            "name": "D",
+            "value": "15"
+        }
+    ],
+    "version": 1
+}

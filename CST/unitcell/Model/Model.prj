@@ -1,0 +1,13 @@
+{
+   "Author": "Hlib Zadorozhnyi",
+   "Comment": "",
+   "Last Problem Type": "High Frequency",
+   "Last Solver Type": "HF Time Domain",
+   "Last Solver Type Abb": "t",
+   "Mesh Cells": "",
+   "Mesh Type": "Hexahedral",
+   "Modeler Unique ID": "5:unitcell.cst?1f984814650aeba2dfbde32317f4c85c?18927:numberofparameters=16:port=1>mode=1>zre=0>zim=0?port=2>mode=1>zre=0>zim=0?port=3>mode=1>zre=0>zim=0:::d?l?l1?lpad?w?wgap?wline?wpad?wpadgap?xpad1?xpad2?xpad3?xpad4?xvar_centre?h?th",
+   "ProjectVersion": "'# MWS Version: Version 2024.1 - Oct 16 2023 - ACIS 33.0.1 -",
+   "Results": "Unavailable",
+   "Version": "3"
+}

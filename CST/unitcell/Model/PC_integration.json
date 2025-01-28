@@ -1,0 +1,129 @@
+{
+   "execution": {
+      "classname": "SMAPowerByEmagHPCFrame",
+      "libname": "SMAPowerByEmagUI"
+   },
+   "inputVariables": [
+      {
+         "name": "theta",
+         "type": "float",
+         "value": 0.0
+      },
+      {
+         "name": "phi",
+         "type": "float",
+         "value": 0.0
+      },
+      {
+         "name": "W",
+         "type": "float",
+         "value": 10.0
+      },
+      {
+         "name": "L",
+         "type": "float",
+         "value": 10.0
+      },
+      {
+         "name": "Wline",
+         "type": "float",
+         "value": 1.42
+      },
+      {
+         "name": "Wgap",
+         "type": "float",
+         "value": 1.0
+      },
+      {
+         "name": "th",
+         "type": "float",
+         "value": 0.035
+      },
+      {
+         "name": "h",
+         "type": "float",
+         "value": 0.9
+      },
+      {
+         "name": "Wpad",
+         "type": "float",
+         "value": 0.475
+      },
+      {
+         "name": "Lpad",
+         "type": "float",
+         "value": 0.75
+      },
+      {
+         "name": "Wpadgap",
+         "type": "float",
+         "value": 0.35
+      },
+      {
+         "name": "L1",
+         "type": "float",
+         "value": 0.3
+      },
+      {
+         "name": "R",
+         "type": "float",
+         "value": 5.4
+      },
+      {
+         "name": "Cp",
+         "type": "float",
+         "value": 0.075
+      },
+      {
+         "name": "C0",
+         "type": "float",
+         "value": 2.1
+      },
+      {
+         "name": "V",
+         "type": "float",
+         "value": 20.0
+      },
+      {
+         "name": "Vj",
+         "type": "float",
+         "value": 3.0
+      },
+      {
+         "name": "M",
+         "type": "float",
+         "value": 1.2
+      },
+      {
+         "name": "Lp",
+         "type": "float",
+         "value": 0.45
+      },
+      {
+         "name": "f",
+         "type": "string",
+         "value": "10*1e-3"
+      },
+      {
+         "name": "f0",
+         "type": "float",
+         "value": 11.0
+      },
+      {
+         "name": "fmin",
+         "type": "float",
+         "value": 10.75
+      },
+      {
+         "name": "fmax",
+         "type": "float",
+         "value": 11.25
+      },
+      {
+         "name": "D",
+         "type": "float",
+         "value": 15.0
+      }
+   ],
+   "outputVariables": []
+}
