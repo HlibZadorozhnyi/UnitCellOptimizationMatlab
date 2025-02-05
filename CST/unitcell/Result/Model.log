@@ -1,0 +1,214 @@
+2025-02-04 18:59:51   Build version: 2024.1 Release from 2023-10-16 (change 1181985)
+
+2025-02-04 18:59:51   Starting adaptive port meshing.
+
+                      ------------------------------------------------------------------------------
+2025-02-04 18:59:51   Mode calculation for port 3:
+
+                      ------------------------------------------------------------------------------
+2025-02-04 18:59:51   
+
+                      ------------------------------------------------------------------------------
+2025-02-04 18:59:51   
+
+                      ------------------------------------------------------------------------------
+2025-02-04 18:59:52   Using Generalized port mode solver.
+
+                      ------------------------------------------------------------------------------
+2025-02-04 18:59:52     -------------------------------- F-Calc 11 ---------------------------------
+                        Port   Mode   Type        Z-Wave        Z-Wave-Sigma  Z-Line        F-Cutoff
+                        3      1      TEM         377           7.35e-006     377           0.0
+                        ----------------------------------------------------------------------------
+
+2025-02-04 18:59:52   Pass 1 successfully completed. 
+2025-02-04 18:59:53   
+
+                      ------------------------------------------------------------------------------
+2025-02-04 18:59:53   
+
+                      ------------------------------------------------------------------------------
+2025-02-04 18:59:54     -------------------------------- F-Calc 11 ---------------------------------
+                        Port   Mode   Type        Z-Wave        Z-Wave-Sigma  Z-Line        F-Cutoff
+                        3      1      TEM         377           7.85e-006     377           0.0
+                        ----------------------------------------------------------------------------
+
+2025-02-04 18:59:54   Pass 2 successfully completed. Delta (Line Imp.): 0.00%
+2025-02-04 18:59:54   
+
+                      ------------------------------------------------------------------------------
+2025-02-04 18:59:54   
+
+                      ------------------------------------------------------------------------------
+2025-02-04 18:59:57     -------------------------------- F-Calc 11 ---------------------------------
+                        Port   Mode   Type        Z-Wave        Z-Wave-Sigma  Z-Line        F-Cutoff
+                        3      1      TEM         377           8.11e-006     377           0.0
+                        ----------------------------------------------------------------------------
+
+2025-02-04 18:59:57   Pass 3 successfully completed. Delta (Line Imp.): 0.00%
+2025-02-04 18:59:58   Adaptive port meshing finished. 
+
+                      ------------------------------------------------------------------------------
+2025-02-04 18:59:58   
+                      Solver started at: 2025-02-04 18:59:58 +0200
+
+                        Module:  Time Domain: S-Parameter (Win 64)
+                        Version: 2024.1 Release from 2023-10-16 (change 1181985)
+
+2025-02-04 18:59:58   
+
+                      ------------------------------------------------------------------------------
+2025-02-04 18:59:58   Hardware Accelerator Device infos:
+                      - The environment variable CST_HWACC_ALLOW_UNVERIFIED_HARDWARE is set to allow all GPUs. Please consider to set 
+                      CUDA_VISIBLE_DEVICES to limit the available devices.
+                      - CUDA_MODULE_LOADING is set to: LAZY
+
+
+                      ------------------------------------------------------------------------------
+2025-02-04 18:59:58   ======================================================================
+                       Solver cycle: 1
+                      ======================================================================
+
+                      Stimulation at discrete port 1 
+
+
+
+                      ------------------------------------------------------------------------------
+2025-02-04 18:59:58   Units settings: 
+
+                        Dimensions: mm
+                        Frequency:  GHz
+                        Time:       ns
+
+                      ------------------------------------------------------------------------------
+2025-02-04 18:59:58   The dispersive material update [Automatic] will be performed using the "Standard" update schema
+
+                      ------------------------------------------------------------------------------
+2025-02-04 19:00:01   The following discrete edge ports are connected to metal material:
+                      	1, 2
+
+                      ------------------------------------------------------------------------------
+2025-02-04 19:00:01   Mesh statistics:
+
+                         Hexahedral mesh type: Perfect Boundary Approximation (PBA)
+                            Version: default
+
+                         Parallelization type: domain decomposition
+                            Number of parallel working threads: 1
+                            Number of calculation domains used: 1
+
+                         Used point accuracy enhancement value: 75.00%.
+                         Acceleration mode: CPU
+                         Acceleration mode: GPU
+                         PBA fill limit: 99.00% (inverse)
+
+2025-02-04 19:00:01   Waveguide ports which touch open boundaries cause additional data exchange between hardware and host system. This may 
+                      reduce the performance of Hardware Accelerator Device. It is recommended to add space between port and open boundary.
+
+                      ------------------------------------------------------------------------------
+2025-02-04 19:00:01   Using Generalized port mode solver.
+
+                      ------------------------------------------------------------------------------
+2025-02-04 19:00:01   Boundary conditions: 
+
+                        YZsymmetry: none
+                        XZsymmetry: none
+                        XYsymmetry: none
+
+                        Xmin: electric
+                        Xmax: electric
+
+                        Ymin: magnetic
+                        Ymax: magnetic
+
+                        Zmin: electric
+                        Zmax: open, 4 Layer, depth 3.1264 mm
+
+                        PML-Type: Convolution PML
+
+                      ------------------------------------------------------------------------------
+2025-02-04 19:00:01   Frequency settings: 
+
+                        Fmin:         9
+                        Fmax:         13
+                        Nfsteps(lin): 1001
+
+                      ------------------------------------------------------------------------------
+2025-02-04 19:00:01   Field update statistics:
+
+                        Number of components in total: 	106205
+                        Number of lossy metal components:	2683
+
+                      Subcycling state:      			Automatically deactivated
+
+                      ------------------------------------------------------------------------------
+2025-02-04 19:00:01   Port: 1
+
+2025-02-04 19:00:01     Discrete element, reference impedance = 50 Ohm
+
+                      ------------------------------------------------------------------------------
+2025-02-04 19:00:01   Port: 2
+
+2025-02-04 19:00:01     Discrete element, reference impedance = 50 Ohm
+
+                      ------------------------------------------------------------------------------
+2025-02-04 19:00:01   Waveguide boundaries:
+
+2025-02-04 19:00:01   Port: 3
+
+2025-02-04 19:00:01     -------------------------------- F-Calc 11 ---------------------------------
+                        Port   Mode   Type        Z-Wave        Z-Wave-Sigma  Z-Line        F-Cutoff
+                        3      1      TEM         377           7.35e-006     377           0.0
+                        ----------------------------------------------------------------------------
+
+2025-02-04 19:00:01   Feature memory distribution of used GPU RAM:
+                      	 66 %	 core model
+                      	 19 %	 lossy metal
+                      	 15 %	 open boundary
+
+
+                      ------------------------------------------------------------------------------
+2025-02-04 19:00:02   Synchronous communication is used for GPU Computing.
+
+                      ------------------------------------------------------------------------------
+2025-02-04 19:00:32   
+                      --------------------------------------------------------------------------------
+2025-02-04 19:00:32   Steady state energy criterion met, solver finished successfully.
+
+                      ------------------------------------------------------------------------------
+2025-02-04 19:00:32   Frequency domain results normalized to default signal.
+
+
+                      ------------------------------------------------------------------------------
+2025-02-04 19:00:32   
+                        ----------------------------------------------------------------------------
+                                            Peak memory used (kB)         Free physical memory (kB) 
+                                                                          At begin     Minimum      
+                        ----------------------------------------------------------------------------
+                        CAD preparation     17536                         12069192     12069192     
+                        Matrices calc.      188281                        11893554     11893554     
+                        Solver run total    255336                        12078412     12056184     
+                        ----------------------------------------------------------------------------
+
+                      --------------------------------------------------------------------------------
+                      Solver Statistics:
+
+                        Hardware:
+                           Computer name:                 	DESKTOP-2KKGKPO 
+
+                           Number of CPU threads:               6
+                           hardware type:                  	1 CUDA GPU solver, UNVERIFIED
+                           GPU memory usage:            	  approx. 5 %
+
+                        Number of mesh cells:             	16704
+                        Excitation duration:              	1.77727437e+000 ns 
+                        Calculation time for excitation:  	0 	s
+                        Number of calculated pulse widths:	4.23953 
+                        Steady state accuracy limit:      	-40	dB 
+                        Simulated number of time steps:   	20790 
+                        Maximum number of time steps:     	98076 
+                        Time step width:
+                           without subcycles:             	3.624244493e-004 ns
+                           used:                          	3.624244493e-004 ns
+
+                        CAD preparation time:             	0      	s
+                        Matrix calculation time:          	

@@ -1,9 +1,9 @@
 Option Explicit
 Sub Main ()
-OpenFile ("C:\Work\MatlabApps\UnitCellOptimizationMatlabNew\CST\unitcell.cst")
+OpenFile ("C:\Work\MatlabApps\UnitCellOptimizationMatlab\CST\unitcell.cst")
 DeleteResults
-StoreDoubleParameter ("Wgap", 1.000)
-StoreDoubleParameter ("Wline", 1.420)
+StoreDoubleParameter ("Wgap", 2.810)
+StoreDoubleParameter ("Wline", 0.360)
 StoreDoubleParameter ("L", 10.000)
 Rebuild
 SimulationTask.Name("Sweep1")

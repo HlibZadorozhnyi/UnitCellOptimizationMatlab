@@ -1,0 +1,22 @@
+=========================================
+== CST Matrix Calculation Priority Log ==
+=========================================
+Priorities are sorted in ascending order beginning with the lowest priority
+ 
+Group | Shape-ID | ShapeName | Material | User-priority | 2D/3D-Geometry | Material-attributes | Shape-attributes | Feature-ID | Schemetype
+1 | 11 | </cst/Boundaries/> Low^Y | $NFSMaterial$ | n/a | no | normal.vacuum. | boundary. | n/a | FIT_TD
+1 | 14 | </cst/Boundaries/> Up^Y | $NFSMaterial$ | n/a | no | normal.vacuum. | boundary. | n/a | FIT_TD
+1 | 15 | </cst/Boundaries/> Up^Z | $NFSMaterial$ | n/a | no | normal.vacuum. | boundary. | n/a | FIT_TD
+2 | 10 | </cst/Boundaries/> Low^X | Copper (pure) | n/a | no | pec.rho.surface-impedance. | boundary. | n/a | FIT_TD
+2 | 12 | </cst/Boundaries/> Low^Z | Copper (pure) | n/a | no | pec.rho.surface-impedance. | boundary. | n/a | FIT_TD
+2 | 13 | </cst/Boundaries/> Up^X | Copper (pure) | n/a | no | pec.rho.surface-impedance. | boundary. | n/a | FIT_TD
+3 | 6 | </cst/Ports/> 1^t0 | Copper (pure) | n/a | no | pec.rho.surface-impedance. | edge-element.wire. | n/a | FIT_TD
+3 | 7 | </cst/Ports/> 1^t1 | Copper (pure) | n/a | no | pec.rho.surface-impedance. | edge-element.wire. | n/a | FIT_TD
+3 | 8 | </cst/Ports/> 2^t0 | Copper (pure) | n/a | no | pec.rho.surface-impedance. | edge-element.wire. | n/a | FIT_TD
+3 | 9 | </cst/Ports/> 2^t1 | Copper (pure) | n/a | no | pec.rho.surface-impedance. | edge-element.wire. | n/a | FIT_TD
+4 | 2 | substrate:solid2 | IS400 | n/a | yes | normal. | solid. | n/a | FIT_TD
+5 | 1 | bottom:solid1 | Copper (pure) | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+5 | 3 | top:solid10 | Copper (pure) | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+5 | 4 | top:solid10 (Lump 2) | Copper (pure) | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+5 | 5 | top:solid10 (Lump 3) | Copper (pure) | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+=========================================

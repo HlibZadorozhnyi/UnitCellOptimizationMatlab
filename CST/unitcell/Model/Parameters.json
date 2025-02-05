@@ -23,14 +23,14 @@
             "value": "10"
         },
         {
-            "expr": "1.4199999999999999",
+            "expr": "0.35999999999999999",
             "name": "Wline",
-            "value": "1.4199999999999999"
+            "value": "0.35999999999999999"
         },
         {
-            "expr": "1",
+            "expr": "2.8100000000000001",
             "name": "Wgap",
-            "value": "1"
+            "value": "2.8100000000000001"
         },
         {
             "expr": "0.035",
@@ -45,7 +45,7 @@
         {
             "expr": "(W/2)-Wgap-Wline/2",
             "name": "Wcoop",
-            "value": "3.29"
+            "value": "2.01"
         },
         {
             "expr": "0.475",
@@ -65,32 +65,32 @@
         {
             "expr": "Wline/2+Wgap/2",
             "name": "Xvar_centre",
-            "value": "1.21"
+            "value": "1.585"
         },
         {
             "expr": "(Xvar_centre+Wpadgap/2+Wpad/2)",
             "name": "Xpad1",
-            "value": "1.6225"
+            "value": "1.9975"
         },
         {
             "expr": "(Xvar_centre-Wpadgap/2-Wpad/2)",
             "name": "Xpad2",
-            "value": "0.7975"
+            "value": "1.1725"
         },
         {
             "expr": "Xpad1",
             "name": "Xpad3",
-            "value": "1.6225"
+            "value": "1.9975"
         },
         {
             "expr": "Xpad2",
             "name": "Xpad4",
-            "value": "0.7975"
+            "value": "1.1725"
         },
         {
             "expr": "(Wgap+Wline/2)-(Xpad1+Wpad/2)",
             "name": "W1",
-            "value": "-0.15"
+            "value": "0.755"
         },
         {
             "expr": "0.3",
@@ -100,7 +100,7 @@
         {
             "expr": "W1",
             "name": "W2",
-            "value": "-0.15"
+            "value": "0.755"
         },
         {
             "expr": "5.4",

@@ -27,12 +27,12 @@
       {
          "name": "Wline",
          "type": "float",
-         "value": 1.42
+         "value": 0.36
       },
       {
          "name": "Wgap",
          "type": "float",
-         "value": 1.0
+         "value": 2.81
       },
       {
          "name": "th",

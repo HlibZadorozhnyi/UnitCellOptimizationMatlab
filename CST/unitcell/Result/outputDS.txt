@@ -1,5 +1,5 @@
 _______________________________________________________________________________________________________________________
-    Message output from C:\Work\MatlabApps\UnitCellOptimizationMatlabNew\CST\unitcell
+    Message output from C:\Work\MatlabApps\UnitCellOptimizationMatlab\CST\unitcell
     Build: 2024.1 Release from 2023-10-16 (change 1181985)
 _______________________________________________________________________________________________________________________
 
@@ -8,83 +8,83 @@ Performing task Sweep1...
 _______________________________________________________________________________________________________________________
 Performing parameter sweep...
 _______________________________________________________________________________________________________________________
-S-Parameters were read from cache for block: "MWSSCHEM1"
+	Waveguide ports which touch open boundaries cause additional data exchange between hardware device and host system. This may reduce the performance of Hardware Accelerator Device. It is recommended to add space between port and open boundary.
 _______________________________________________________________________________________________________________________
-TOUCHSTONE file 'C:\Work\MatlabApps\UnitCellOptimizationMatlabNew\CST\unitcell\Result\DS\TOUCHSTONE files\DS_for_MWS-run-0001.s1p' was exported successfully.
+	CAD processing via DLL
+_______________________________________________________________________________________________________________________
+	CAD Processing Version Info
+	ACIS version installed:	33.0.1
+	ACIS version used:	33.0.1
+_______________________________________________________________________________________________________________________
+	Starting adaptive port meshing.
+_______________________________________________________________________________________________________________________
+	Mode calculation for port 3:
+_______________________________________________________________________________________________________________________
+	Using Generalized port mode solver.
+_______________________________________________________________________________________________________________________
+	Pass 1 successfully completed. 
+_______________________________________________________________________________________________________________________
+	Pass 2 successfully completed. Delta (Line Imp.): 0.00%
+_______________________________________________________________________________________________________________________
+	Pass 3 successfully completed. Delta (Line Imp.): 0.00%
+_______________________________________________________________________________________________________________________
+	Adaptive port meshing finished. 
+_______________________________________________________________________________________________________________________
+	Hardware Accelerator Device infos:
+	- The environment variable CST_HWACC_ALLOW_UNVERIFIED_HARDWARE is set to allow all GPUs. Please consider to set CUDA_VISIBLE_DEVICES to limit the available devices.
+	- CUDA_MODULE_LOADING is set to: LAZY
 
 _______________________________________________________________________________________________________________________
-TOUCHSTONE file exported to 'C:\Work\MatlabApps\UnitCellOptimizationMatlabNew\CST\unitcell\Result\DS\TOUCHSTONE files\DS_for_MWS-run-0001'.
+	CAD processing via DLL
 _______________________________________________________________________________________________________________________
-S-Parameters were read from cache for block: "MWSSCHEM1"
+	CAD Processing Version Info
+	ACIS version installed:	33.0.1
+	ACIS version used:	33.0.1
 _______________________________________________________________________________________________________________________
-TOUCHSTONE file 'C:\Work\MatlabApps\UnitCellOptimizationMatlabNew\CST\unitcell\Result\DS\TOUCHSTONE files\DS_for_MWS-run-0002.s1p' was exported successfully.
+	Matrix computation (PBA)
+	[Perfect Boundary Approximation (PBA), version: default]
+	[GPU acceleration: on, # of GPUs: 1]
+<a href="1486;2378.htm">More...</a>
+_______________________________________________________________________________________________________________________
+	Geometry representation: shared-attached
+_______________________________________________________________________________________________________________________
+	Using GPU conformal geometry representation
+_______________________________________________________________________________________________________________________
+	Waveguide ports which touch open boundaries cause additional data exchange between hardware and host system. This may reduce the performance of Hardware Accelerator Device. It is recommended to add space between port and open boundary.
+_______________________________________________________________________________________________________________________
+	Using Generalized port mode solver.
+_______________________________________________________________________________________________________________________
+	Solver Settings:
+Excited discrete port: 1 
+[Frequency domain results normalized to default signal]
+Excitation duration: 1.77727437e+000 ns 
+Steady state accuracy limit: -40 dB 
+Maximum number of time steps: 98076 
+Time step width:
+     without subcycles: 3.624244493e-004 ns
+     used: 3.624244493e-004 ns
+Number of threads used: 6
+_______________________________________________________________________________________________________________________
+	Hardware Accelerator Device activated:
+   1 CUDA GPU solver used,
+      type UNVERIFIED card found, GPU memory usage approx. 5 %
 
 _______________________________________________________________________________________________________________________
-TOUCHSTONE file exported to 'C:\Work\MatlabApps\UnitCellOptimizationMatlabNew\CST\unitcell\Result\DS\TOUCHSTONE files\DS_for_MWS-run-0002'.
+	Synchronous communication is used for GPU Computing.
 _______________________________________________________________________________________________________________________
-S-Parameters were read from cache for block: "MWSSCHEM1"
+	Steady state energy criterion met, solver finished successfully.
 _______________________________________________________________________________________________________________________
-TOUCHSTONE file 'C:\Work\MatlabApps\UnitCellOptimizationMatlabNew\CST\unitcell\Result\DS\TOUCHSTONE files\DS_for_MWS-run-0003.s1p' was exported successfully.
-
+	Waveguide ports which touch open boundaries cause additional data exchange between hardware and host system. This may reduce the performance of Hardware Accelerator Device. It is recommended to add space between port and open boundary.
 _______________________________________________________________________________________________________________________
-TOUCHSTONE file exported to 'C:\Work\MatlabApps\UnitCellOptimizationMatlabNew\CST\unitcell\Result\DS\TOUCHSTONE files\DS_for_MWS-run-0003'.
+	Solver Settings:
+Excited discrete port: 2 
+[Frequency domain results normalized to default signal]
+Excitation duration: 1.77727437e+000 ns 
+Steady state accuracy limit: -40 dB 
+Maximum number of time steps: 98076 
+Time step width:
+     without subcycles: 3.624244493e-004 ns
+     used: 3.624244493e-004 ns
+Number of threads used: 6
 _______________________________________________________________________________________________________________________
-S-Parameters were read from cache for block: "MWSSCHEM1"
-_______________________________________________________________________________________________________________________
-TOUCHSTONE file 'C:\Work\MatlabApps\UnitCellOptimizationMatlabNew\CST\unitcell\Result\DS\TOUCHSTONE files\DS_for_MWS-run-0004.s1p' was exported successfully.
-
-_______________________________________________________________________________________________________________________
-TOUCHSTONE file exported to 'C:\Work\MatlabApps\UnitCellOptimizationMatlabNew\CST\unitcell\Result\DS\TOUCHSTONE files\DS_for_MWS-run-0004'.
-_______________________________________________________________________________________________________________________
-S-Parameters were read from cache for block: "MWSSCHEM1"
-_______________________________________________________________________________________________________________________
-TOUCHSTONE file 'C:\Work\MatlabApps\UnitCellOptimizationMatlabNew\CST\unitcell\Result\DS\TOUCHSTONE files\DS_for_MWS-run-0005.s1p' was exported successfully.
-
-_______________________________________________________________________________________________________________________
-TOUCHSTONE file exported to 'C:\Work\MatlabApps\UnitCellOptimizationMatlabNew\CST\unitcell\Result\DS\TOUCHSTONE files\DS_for_MWS-run-0005'.
-_______________________________________________________________________________________________________________________
-S-Parameters were read from cache for block: "MWSSCHEM1"
-_______________________________________________________________________________________________________________________
-TOUCHSTONE file 'C:\Work\MatlabApps\UnitCellOptimizationMatlabNew\CST\unitcell\Result\DS\TOUCHSTONE files\DS_for_MWS-run-0006.s1p' was exported successfully.
-
-_______________________________________________________________________________________________________________________
-TOUCHSTONE file exported to 'C:\Work\MatlabApps\UnitCellOptimizationMatlabNew\CST\unitcell\Result\DS\TOUCHSTONE files\DS_for_MWS-run-0006'.
-_______________________________________________________________________________________________________________________
-S-Parameters were read from cache for block: "MWSSCHEM1"
-_______________________________________________________________________________________________________________________
-TOUCHSTONE file 'C:\Work\MatlabApps\UnitCellOptimizationMatlabNew\CST\unitcell\Result\DS\TOUCHSTONE files\DS_for_MWS-run-0007.s1p' was exported successfully.
-
-_______________________________________________________________________________________________________________________
-TOUCHSTONE file exported to 'C:\Work\MatlabApps\UnitCellOptimizationMatlabNew\CST\unitcell\Result\DS\TOUCHSTONE files\DS_for_MWS-run-0007'.
-_______________________________________________________________________________________________________________________
-S-Parameters were read from cache for block: "MWSSCHEM1"
-_______________________________________________________________________________________________________________________
-TOUCHSTONE file 'C:\Work\MatlabApps\UnitCellOptimizationMatlabNew\CST\unitcell\Result\DS\TOUCHSTONE files\DS_for_MWS-run-0008.s1p' was exported successfully.
-
-_______________________________________________________________________________________________________________________
-TOUCHSTONE file exported to 'C:\Work\MatlabApps\UnitCellOptimizationMatlabNew\CST\unitcell\Result\DS\TOUCHSTONE files\DS_for_MWS-run-0008'.
-_______________________________________________________________________________________________________________________
-S-Parameters were read from cache for block: "MWSSCHEM1"
-_______________________________________________________________________________________________________________________
-TOUCHSTONE file 'C:\Work\MatlabApps\UnitCellOptimizationMatlabNew\CST\unitcell\Result\DS\TOUCHSTONE files\DS_for_MWS-run-0009.s1p' was exported successfully.
-
-_______________________________________________________________________________________________________________________
-TOUCHSTONE file exported to 'C:\Work\MatlabApps\UnitCellOptimizationMatlabNew\CST\unitcell\Result\DS\TOUCHSTONE files\DS_for_MWS-run-0009'.
-_______________________________________________________________________________________________________________________
-S-Parameters were read from cache for block: "MWSSCHEM1"
-_______________________________________________________________________________________________________________________
-TOUCHSTONE file 'C:\Work\MatlabApps\UnitCellOptimizationMatlabNew\CST\unitcell\Result\DS\TOUCHSTONE files\DS_for_MWS-run-0010.s1p' was exported successfully.
-
-_______________________________________________________________________________________________________________________
-TOUCHSTONE file exported to 'C:\Work\MatlabApps\UnitCellOptimizationMatlabNew\CST\unitcell\Result\DS\TOUCHSTONE files\DS_for_MWS-run-0010'.
-_______________________________________________________________________________________________________________________
-S-Parameters were read from cache for block: "MWSSCHEM1"
-_______________________________________________________________________________________________________________________
-TOUCHSTONE file 'C:\Work\MatlabApps\UnitCellOptimizationMatlabNew\CST\unitcell\Result\DS\TOUCHSTONE files\DS_for_MWS-run-0011.s1p' was exported successfully.
-
-_______________________________________________________________________________________________________________________
-TOUCHSTONE file exported to 'C:\Work\MatlabApps\UnitCellOptimizationMatlabNew\CST\unitcell\Result\DS\TOUCHSTONE files\DS_for_MWS-run-0011'.
-_______________________________________________________________________________________________________________________
-Parameter sweep complete
-_______________________________________________________________________________________________________________________
-Task Sweep1 successfully completed in 16 sec.
+	Synchronous communication is used for GPU Computing.

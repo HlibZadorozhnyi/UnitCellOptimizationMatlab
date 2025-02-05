@@ -1,42 +1,21 @@
-close all
+%% 基于粒子群工具箱的函数优化算法
+
+%% 清空环境
 clear
 clc
-options = optimset('PlotFcns',@optimplotfval);
 
-f = @(x) singleRun(x);  % create a function f(x)
-% x0 = [2 1.5];          % initial guess for the center
-% xc = fminsearch(f,x0, options);
+%% 参数初始化
+x_range=[0,9];     %参数x变化范围
+y_range=[0,9];     %参数y变化范围
+range = [x_range;y_range];     %参数变化范围(组成矩阵)
+Max_V = 0.2*(range(:,2)-range(:,1));  %最大速度取变化范围的10%~20%
+n=2;                     %待优化函数的维数，此例子中仅x、y两个自变量，故为2
 
-f([1 1.42])
+PSOparams= [1 10 24 2 2 0.9 0.4 30 1e-3 10 NaN 0 0];
 
-% X = 0:0.01:10;    % Wline
-% Y = 0:0.01:10;    % Wgap
-% 
-% Nx = length(X);
-% Ny = length(Y);
-% 
-% OUT = nan(Nx, Ny);
-% count = 0;
-% for x=1:Nx
-%     for y=1:Ny
-%         Wline = X(x);
-%         Wgap  = Y(y);
-% 
-%         Y1 = -1*Wline+1.4;
-%         Y2 = -0.5*Wline+4.5;
-% 
-%         if (Wgap >= Y1) && (Wgap >= 0.4) && (Wline >= 0.3) && (Wgap <= Y2)
-%             OUT(x,y) = Y(1,y);
-%             count = count + 1;
-%         end
-%     end
-% 
-% end
-% 
-% figure
-% plot(X, OUT)
-% xlabel("Wline [mm]")
-% ylabel("Wgap [mm]")
+%% 粒子群寻优
+pso_Trelea_vectorized('rangeRun',n,Max_V/5,range,0,PSOparams)  %调用PSO核心模块
+
 
 
 
