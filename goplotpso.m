@@ -11,7 +11,6 @@
 % 3/1/06
 
 % setup figure, change this for your own machine
-
  clf
  set(gcf,'Position',[651    31   626   474]); % this is the computer dependent part
  %set(gcf,'Position',[743    33   853   492]);
@@ -129,21 +128,13 @@ subplot('position',[.62,.1,.29,.4]);
      minmaxstr = ['Target   to : '];
   end
   
-  if rstflg==1
-     rststat1 = 'Environment Change';
-     rststat2 = ' ';
-  else
-     rststat1 = ' ';
-     rststat2 = ' ';
-  end
   
   titstr={'PSO Model: '      ,PSOtype;...
           'Dimensions : '    ,num2str(D);...
           '# of particles : ',num2str(ps);...
           minmaxstr          ,errgoalstr;...
           'Function : '      ,strrep(functname,'_','\_');...
-          xtraname           ,xtraval;...
-          rststat1           ,rststat2};
+          xtraname           ,xtraval};
   
   text(.1,1,[titstr{1,1},titstr{1,2}],'color','g','fontweight','bold');
   hold on
@@ -153,7 +144,6 @@ subplot('position',[.62,.1,.29,.4]);
   text(.55,.7,[titstr{4,2}],'color','m');
   text(.1,.6,[titstr{5,1},titstr{5,2}],'color','m');
   text(.1,.5,[titstr{6,1},titstr{6,2}],'color','w','fontweight','bold');
-  text(.1,.4,[titstr{7,1},titstr{7,2}],'color','r','fontweight','bold');
   
   % if we are training a neural net, show a few more parameters
   if strcmp('pso_neteval',functname)
@@ -189,3 +179,6 @@ subplot('position',[.62,.1,.29,.4]);
   set(gca,'visible','off');
   
   drawnow
+  
+  
+  %uitable

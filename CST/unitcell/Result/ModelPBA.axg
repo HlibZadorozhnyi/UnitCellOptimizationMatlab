@@ -5,14 +5,14 @@
       <LineSet points="-5 -5 15.9700003 5 -5 15.9700003 5 5 15.9700003 -5 5 15.9700003 -5 -5 15.9700003" stripped="1" material="$PortMaterial$" text="3" short="3"/>
     </Object>
     <Object name="Ports\port1" id="5">
-      <Cone position="-1.58500004 0 0.970000029" direction="1 0 0" dimension="10 10 10" material="$PortMaterial$" text="1" short="1"/>
-      <LineSet points="-1.75999999 0 0.970000029 -1.40999997 0 0.970000029" stripped="1" material="$WireMaterial$"/>
-      <LineSet points="-1.75999999 0 0.970000029 -1.40999997 0 0.970000029" stripped="1" material=""/>
+      <Cone position="-3.86500001 0 0.970000029" direction="1 0 0" dimension="10 10 10" material="$PortMaterial$" text="1" short="1"/>
+      <LineSet points="-4.03999996 0 0.970000029 -3.92845678 0 0.970000029 -3.92845678 0 0.970000029 -3.80154324 0 0.970000029 -3.80154324 0 0.970000029 -3.69000006 0 0.970000029" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="-3.92845678 0 0.970000029 -3.80154324 0 0.970000029" stripped="1" material=""/>
     </Object>
     <Object name="Ports\port2" id="6">
-      <Cone position="1.58500004 0 0.970000029" direction="-1 0 0" dimension="10 10 10" material="$PortMaterial$" text="2" short="2"/>
-      <LineSet points="1.40999997 0 0.970000029 1.75999999 0 0.970000029" stripped="1" material="$WireMaterial$"/>
-      <LineSet points="1.40999997 0 0.970000029 1.75999999 0 0.970000029" stripped="1" material=""/>
+      <Cone position="3.74577165 0 0.970000029" direction="-1 0 0" dimension="10 10 10" material="$PortMaterial$" text="2" short="2"/>
+      <LineSet points="3.92845678 0 0.970000029 3.80154324 0 0.970000029 3.80154324 0 0.970000029 3.69000006 0 0.970000029 3.69000006 0 0.970000029 3.80154324 0 0.970000029" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="3.80154324 0 0.970000029 3.69000006 0 0.970000029" stripped="1" material=""/>
     </Object>
   </Objects>
   <Materials>

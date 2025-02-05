@@ -57,10 +57,10 @@ Excited discrete port: 1
 [Frequency domain results normalized to default signal]
 Excitation duration: 1.77727437e+000 ns 
 Steady state accuracy limit: -40 dB 
-Maximum number of time steps: 98076 
+Maximum number of time steps: 103619 
 Time step width:
-     without subcycles: 3.624244493e-004 ns
-     used: 3.624244493e-004 ns
+     without subcycles: 3.430400687e-004 ns
+     used: 3.430400687e-004 ns
 Number of threads used: 6
 _______________________________________________________________________________________________________________________
 Hardware Accelerator Device activated:
@@ -79,10 +79,33 @@ Excited discrete port: 2
 [Frequency domain results normalized to default signal]
 Excitation duration: 1.77727437e+000 ns 
 Steady state accuracy limit: -40 dB 
-Maximum number of time steps: 98076 
+Maximum number of time steps: 103619 
 Time step width:
-     without subcycles: 3.624244493e-004 ns
-     used: 3.624244493e-004 ns
+     without subcycles: 3.430400687e-004 ns
+     used: 3.430400687e-004 ns
 Number of threads used: 6
 _______________________________________________________________________________________________________________________
 Synchronous communication is used for GPU Computing.
+_______________________________________________________________________________________________________________________
+Steady state energy criterion met, solver finished successfully.
+_______________________________________________________________________________________________________________________
+Waveguide ports which touch open boundaries cause additional data exchange between hardware and host system. This may reduce the performance of Hardware Accelerator Device. It is recommended to add space between port and open boundary.
+_______________________________________________________________________________________________________________________
+Solver Settings:
+Excited port mode: 3 (1) 
+[Frequency domain results normalized to default signal]
+Excitation duration: 1.77727437e+000 ns 
+Steady state accuracy limit: -40 dB 
+Maximum number of time steps: 103619 
+Time step width:
+     without subcycles: 3.430400687e-004 ns
+     used: 3.430400687e-004 ns
+Number of threads used: 6
+_______________________________________________________________________________________________________________________
+Synchronous communication is used for GPU Computing.
+_______________________________________________________________________________________________________________________
+Steady state energy criterion met, solver finished successfully.
+_______________________________________________________________________________________________________________________
+Successfully finished Secondary Quantity Evaluation.
+_______________________________________________________________________________________________________________________
+Creating parametric 1D results for Run ID 1

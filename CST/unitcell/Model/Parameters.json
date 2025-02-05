@@ -23,14 +23,14 @@
             "value": "10"
         },
         {
-            "expr": "0.35999999999999999",
+            "expr": "7.1719999999999997",
             "name": "Wline",
-            "value": "0.35999999999999999"
+            "value": "7.1719999999999997"
         },
         {
-            "expr": "2.8100000000000001",
+            "expr": "0.55800000000000005",
             "name": "Wgap",
-            "value": "2.8100000000000001"
+            "value": "0.55800000000000005"
         },
         {
             "expr": "0.035",
@@ -45,7 +45,7 @@
         {
             "expr": "(W/2)-Wgap-Wline/2",
             "name": "Wcoop",
-            "value": "2.01"
+            "value": "0.856"
         },
         {
             "expr": "0.475",
@@ -65,32 +65,32 @@
         {
             "expr": "Wline/2+Wgap/2",
             "name": "Xvar_centre",
-            "value": "1.585"
+            "value": "3.865"
         },
         {
             "expr": "(Xvar_centre+Wpadgap/2+Wpad/2)",
             "name": "Xpad1",
-            "value": "1.9975"
+            "value": "4.2775"
         },
         {
             "expr": "(Xvar_centre-Wpadgap/2-Wpad/2)",
             "name": "Xpad2",
-            "value": "1.1725"
+            "value": "3.4525"
         },
         {
             "expr": "Xpad1",
             "name": "Xpad3",
-            "value": "1.9975"
+            "value": "4.2775"
         },
         {
             "expr": "Xpad2",
             "name": "Xpad4",
-            "value": "1.1725"
+            "value": "3.4525"
         },
         {
             "expr": "(Wgap+Wline/2)-(Xpad1+Wpad/2)",
             "name": "W1",
-            "value": "0.755"
+            "value": "-0.371"
         },
         {
             "expr": "0.3",
@@ -100,7 +100,7 @@
         {
             "expr": "W1",
             "name": "W2",
-            "value": "0.755"
+            "value": "-0.371"
         },
         {
             "expr": "5.4",
@@ -118,9 +118,9 @@
             "value": "2.1"
         },
         {
-            "expr": "20",
+            "expr": "0",
             "name": "V",
-            "value": "20"
+            "value": "0"
         },
         {
             "expr": "3",
@@ -130,12 +130,12 @@
         {
             "expr": "1 + (Cp/Cj)",
             "name": "A",
-            "value": "1.41150002526736"
+            "value": "1.03571428571429"
         },
         {
             "expr": "C0/(((V /Vj)+1)^M)",
             "name": "Cj",
-            "value": "0.182260013110014"
+            "value": "2.1"
         },
         {
             "expr": "1.2",
@@ -160,27 +160,27 @@
         {
             "expr": "1 / (A^2 + B^2)",
             "name": "AB_sqInv",
-            "value": "0.501761215465592"
+            "value": "0.931661140138222"
         },
         {
             "expr": "AB_sqInv*(A*R - (B/(2*pi*f*Cj)))",
             "name": "ReZ",
-            "value": "2.7095105635142"
+            "value": "5.03097015674642"
         },
         {
             "expr": "-1*AB_sqInv*(B*R + (A/(2*pi*f*Cj)))",
             "name": "ImZ",
-            "value": "-61.9142504802984"
+            "value": "-7.44107667256138"
         },
         {
             "expr": "(-1) / (ImZ*2*pi*f)",
             "name": "Ct",
-            "value": "0.257057045602998"
+            "value": "2.13886981811075"
         },
         {
             "expr": "ReZ",
             "name": "Rt",
-            "value": "2.7095105635142"
+            "value": "5.03097015674642"
         },
         {
             "expr": "11",
